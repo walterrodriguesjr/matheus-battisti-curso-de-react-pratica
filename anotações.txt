@@ -1,0 +1,47 @@
+INÍCIO DO PROJETO DO CURSO 
+
+17-criando o projeto do curso 
+    npx create-react-app projeto
+-instalando dependências
+-responsável pelo back-end fake
+    npm install json-server
+-react-icons 
+    npm install react-icons 
+-react router dom 
+    npm install react-router-dom 
+-uuid responsável por criar Id 
+    npm install uuid
+-na pasta src, fica apenas: App.js, index.css e index.js. O resto de src apaga tudo, imagens e etc... 
+    Necessário também atendo aos erros para apagar as importações que ficarão no código
+    em App.js, apaga tudo dentro de <div className="App"> 
+-dentro de index.css, apaga tudo e recomeça do zero 
+-baixado o pacote do projeto para extrair as imagens(3 imagens da pasta img), na branch do projeto 
+    https://github.com/matheusbattisti/curso_react_yt
+-criado na pasta src, a pasta img 
+-substitui o icon favicon default do react pelo da pasta baixada
+
+18-Estruturando o projeto
+-configura a parte de Router, Routes e Route 
+-criada em src, a pasta components, e dentro a pasta pages 
+    dentro de pages criado os 4 arquivos componentes de: Home, Company, Contact e NewProject 
+-em components, criado a pasta layout, e dentro criado componentes que serão comuns em 
+    vários componentes do projeto.
+-em layouts criado o componente Container, que abraça as Routes e o que tiver dentro 
+    recebeu um CSS exclusivo 
+-configurado o css de Container 
+
+19-Navbar e footer 
+-em layout, criado e configurado o componente Navbar e seu arquivo css 
+-em layout, criado e configurado o componente Footer e seu arquivo css
+-configurado o componente Navbar, dentro dela ficou todo sistema de links 
+-criado em pages, Projects. js, o qual irá exibir todos os projetos cadastrados
+
+20-Criando a home 
+-criado o componente e css de newProject 
+-criado o componente e css LinkButton, que direciona para NewProject 
+-
+
+
+
+
+    
